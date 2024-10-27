@@ -239,6 +239,26 @@ button a:link {
   text-decoration: none;
 }
 
+button a:visited {
+  color: black;
+  text-decoration: none;
+}
+button a:active {
+  color: black;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+button:hover {
+  padding: 12px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
 /* Inline block 
 block
 inline
